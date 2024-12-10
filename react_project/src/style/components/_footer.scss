@@ -1,0 +1,129 @@
+.footer {
+    color: #616161;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 114px;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+  }
+  
+  .footer-logo {
+    flex: 1 1 25%;
+    width: 33.33333333%;
+    padding-right: 60px;
+    padding: 12px 0;
+    margin-top: 12px;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+  
+    p {
+      font-family: Kanit, sans-serif;
+      font-size: 16px;
+      margin-bottom: 24px;
+      line-height: 26px;
+      font-weight: 300;
+    }
+  }
+  
+  .payment-icons img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer-links {
+    position: relative;
+    left: 6rem;
+    flex: 3 1 75%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1 1 20%;
+    width: 16.66666667%;
+    padding: 12px 0;
+    padding-top: 48px;
+  
+    .line {
+      height: 1px;
+      width: 100%;
+      background-color: #dddddd41;
+    }
+  
+    h5 {
+      font-family: "Tenor Sans", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 30px;
+      color: #191919;
+      line-height: 1.4;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+  
+      li {
+        color: #616161;
+        font-size: 16px;
+        line-height: 1.6;
+        cursor: pointer;
+  
+        &:hover {
+          transition: 0.4s;
+          color: #b8860b;
+        }
+      }
+    }
+  }
+  
+  .footer-bottom {
+    font-family: Kanit, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 125px;
+    max-width: 100%;
+    font-weight: 300;
+  
+    p {
+      margin: 0;
+      font-weight: 300;
+    }
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  
+    a {
+      color: #616161;
+      font-size: 18px;
+      transition: color 0.3s;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      justify-content: center;
+      border: 1px solid #7c7c7c;
+      border-radius: 50%;
+      padding: 10px;
+  
+      &:hover {
+        background-color: #7c7c7c;
+        color: #ffffff;
+      }
+    }
+  }
+  

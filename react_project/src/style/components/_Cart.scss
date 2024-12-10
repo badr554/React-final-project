@@ -1,0 +1,108 @@
+.cart-container {
+    display: flex;
+    justify-content: center; // Center content
+    padding: 20px;
+    background-color: white;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  
+    .cart-details,
+    .billing-summary {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      
+    }
+  
+    .cart-details {
+      margin-right: 2rem;
+      height: fit-content;
+      width: 60%; // Reduce width slightly
+      display: flex;
+      flex-direction: column;
+      
+  
+      .cart-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+   
+        th,
+        td {
+          padding: 15px; // Increase padding
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+  
+        th {
+          font-size: 16px ;
+          font-weight: 500;
+          color: #333;
+        }
+  
+        .empty-cart {
+
+          font-weight: 300;
+          font-style: italic;
+          color: black; // Lighter text for empty state
+        }
+      }
+  
+      .go-to-shop {
+        align-self: flex-end;
+        padding: 12px 25px;
+        background-color: #222222;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px; // Slightly larger font
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #444;
+        }
+      }
+    }
+  
+    .billing-summary {
+      width: 20%;
+  
+      h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 300;
+        color: #222; // Darker heading
+      }
+  
+      .summary-item,
+      .summary-total {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px; 
+        font-size: 16px; 
+      }
+  
+      hr {
+        margin: 20px 0;
+        border: none;
+        border-top: 1px solid #ddd;
+      }
+  
+      .checkout-button {
+        width: fit-content;
+        translate: 50px;
+        background-color: #222222;
+        color: white;
+        font-size: 16px; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #444;
+        }
+      }
+    }
+  }
+  
